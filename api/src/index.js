@@ -20,8 +20,7 @@ app.use("/api/tasks", tasks)
 
 // STATIC FILES
 
-app.use(express.static(path.join('C:/Users/Fran Tejada/Desktop/Documentos/MERN/client/public')))
-
+app.use(express.static(path.join(`${__dirname} /../public`)))
 // STARTING THE SERVER
 
 app.listen(3000, () => {
