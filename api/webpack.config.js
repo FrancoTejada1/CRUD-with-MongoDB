@@ -1,5 +1,3 @@
-const { node } = require("webpack");
-
 module.exports = {
     entry: '/app/index.js',
     output: {
